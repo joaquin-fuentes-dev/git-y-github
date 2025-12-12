@@ -1,3 +1,4 @@
+import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
 
 export default function App() {
@@ -5,6 +6,7 @@ export default function App() {
     <div className="d-flex flex-column min-vh-100">
       <Header />
       <main className="flex-fill"></main>
+      <Footer />
     </div>
   );
 }
