@@ -2,7 +2,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 export default function Header() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="py-3">
+    <Navbar bg="dark" variant="light" className="py-2">
       <Container>
         <Navbar.Brand href="#home" className="d-flex align-items-center gap-2">
           <img
@@ -16,12 +16,8 @@ export default function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className="fw-bold text-uppercase">
-              Inicio
-            </Nav.Link>
-            <Nav.Link href="#features">Características</Nav.Link>
-            <Nav.Link href="#pricing">Precios</Nav.Link>
-            <Nav.Link href="#contact">Contacto</Nav.Link>
+            <Nav.Link>Inicio</Nav.Link>
+            <Nav.Link>Precios</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
