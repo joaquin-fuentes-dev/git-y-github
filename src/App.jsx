@@ -1,11 +1,15 @@
-import { Container } from "react-bootstrap";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer.jsx";
+import Header from "./components/Header.jsx";
+import SeccionPrincipal from "./components/SeccionPrincipal.jsx";
 
 export default function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
-      <main className="flex-fill"></main>
+      <Header />
+      <main className="flex-fill bg-warning">
+        <SeccionPrincipal />
+      </main>
+      <Footer />
     </div>
   );
 }
